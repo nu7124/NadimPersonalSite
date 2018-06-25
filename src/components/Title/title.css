@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
 #title {
     margin-left: auto;
     margin-right: auto;
 }
 
 #title-name {
-    color: #424242;
+    color: #C8C8B8;
+    font-size:3em;
+    font-family: 'Comfortaa', cursive;
 }

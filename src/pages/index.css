@@ -3,20 +3,20 @@
     padding:0;
 }
 
-#test {
+#main {
     display: grid;
     align-content: center;
     width: 100%;
     height: 100vh;
-    background-color: white;
+    background-color: #102840;
     z-index: -1;
 }
 
-#test2 {
+#about {
     width: 100%;
     height: 100vh;
     margin-top:-15vh;
-    background-color: #ECEFF1;
+    background-color: #C8C8B8;
     -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
     

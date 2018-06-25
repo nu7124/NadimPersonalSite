@@ -2,15 +2,17 @@ import React from 'react';
 import './index.css';
 
 import Title from '../components/Title/title';
+import About from '../components/About/about';
 
 class home extends React.Component {
     render() {
       return (
         <div id="home">
-          <div id="test">
+          <div id="main">
             <Title />
           </div>
-          <div id="test2">
+          <div id="about">
+            <About />
           </div>
         </div>
       );
