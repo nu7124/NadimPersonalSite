@@ -5,9 +5,26 @@ class about extends React.Component {
     render() {
       return (
         <div id="aboutComp">
-            <div>h</div>
-            <div>h</div>
-            <div>h</div>
+            <div className="aboutComp_card">
+                <img src=""/>
+                <h2 className="aboutComp_card_title">Mathematician</h2>
+                <div className="aboutComp_card_line"></div>
+                <p className="aboutComp_card_desc">Stuff about me being a software engineer, blah blach blah blach blah blach blah blach blah blach blah blach</p>
+            </div>
+
+            <div className="aboutComp_card">
+                <img src=""/>
+                <h2 className="aboutComp_card_title">Software Engineer</h2>
+                <div className="aboutComp_card_line"></div>
+                <p className="aboutComp_card_desc">Stuff about me being a software engineer, blah blach blah blach blah blach blah blach blah blach blah blach</p>
+            </div>
+
+            <div className="aboutComp_card">
+                <img src=""/>
+                <h2 className="aboutComp_card_title">Mathematician</h2>
+                <div className="aboutComp_card_line"></div>
+                <p className="aboutComp_card_desc">Stuff about me being a software engineer, blah blach blah blach blah blach blah blach blah blach blah blach</p>
+            </div>
         </div>
       );
     }
