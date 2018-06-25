@@ -1,0 +1,8 @@
+#aboutComp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border:2px solid black;
+    width:100vw;
+    height: 100vh;
+    align-content: center;
+}
