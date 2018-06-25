@@ -1,4 +1,13 @@
 #projectsComp {
     width:100vw;
     height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+#projectsComp_name {
+    color: #C8C8B8;
+    font-size:3em;
+    font-family: 'Comfortaa', cursive;
 }
