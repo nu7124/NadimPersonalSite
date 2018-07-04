@@ -4,6 +4,7 @@ import './index.css';
 import Title from '../components/Title/title';
 import About from '../components/About/about';
 import Skills from '../components/Skills/skills';
+import Accomplishments from '../components/Accomplishments/accomplishments';
 import Projects from '../components/Projects/projects';
 import Contact from '../components/Contact/contact';
 
@@ -21,6 +22,10 @@ const home = ()=> {
 
       <div id="skills">
         <Skills />
+      </div>
+
+      <div id="accomplishments">
+        <Accomplishments />
       </div>
 
       <div id="projects">

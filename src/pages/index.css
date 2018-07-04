@@ -5,8 +5,11 @@
     padding:0;
 }
 
-/* #212121
-#E7F4F3 */
+#home {
+    background-color: #212121;
+}
+/*background-color: #212121; */
+/*background-color: #E7F4F3; */
 
 
 #main {
@@ -22,6 +25,11 @@
 }
 
 #skills {
+    width: 100%;
+    height: 100vh; 
+}
+
+#accomplishments {
     width: 100%;
     height: 100vh; 
 }

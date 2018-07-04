@@ -1,13 +1,48 @@
 #aboutComp {
     width:100vw;
     height: 100vh;
-    display: grid;
+    /* display: grid; */
+    text-align: center;
 }
 
 #aboutComp_name{
     margin-left: auto;
     margin-right: auto;
     font-size:3em;
-    color:#212121;
+    color: white;
     font-family: 'Dosis', sans-serif;
+}
+
+#aboutComp_info {
+    display: grid;
+}
+
+#aboutComp_info_math{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border:2px solid white;
+}
+
+#aboutComp_info_dev{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border:2px solid white;
+}
+
+.aboutComp_info_text{
+    display:grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+#ma{
+    color:#F4E7F3;
+}
+
+#se{
+    
+}
+
+#math{
+    height:100%;
+    width:100%;
 }
