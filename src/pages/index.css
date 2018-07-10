@@ -48,3 +48,10 @@
     height: 100vh;
     border:2px solid white; 
 }
+
+@media only screen and (min-width: 480px) {
+    #skills {
+        background-image: url('../assets/Skills.svg');
+        background-size: cover;
+    }
+}
