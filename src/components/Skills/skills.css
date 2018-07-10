@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
 #skillsComp {
     width:100vw;
     height: 100vh;
@@ -22,9 +24,34 @@
 }
 
 .skillsComp_set_title {
-    background-color: red;
-    text-align:center;
-    border-radius:15px;
+    /* text-align:center; */
+    font-size: 1.6em;
+    font-family: 'Roboto Slab', serif;
+    padding:0% 0% 1% 0%;
+    margin-bottom:.5%;
+    border-radius:15px 15px 0px 0px;
+}
+
+#front {
+    background: linear-gradient(to bottom right, #ffcc00 0%, #ff66cc 100%);
+    /* color:#f4e7f3; */
+}
+
+#back{
+    background: linear-gradient(to right, #00ccff 0%, #c1ffa2 100%);
+    /* color: #e7f4f3; */
+}
+
+#other{
+    background:linear-gradient(to top right, #ff66cc 0%, #00ccff 100%);
+    /* color: #f3f4e7; */
+}
+
+.inner{
+    background-color:#414141;
+    padding:2%;
+    color:white;
+    border-radius:12px 12px 0px 0px;
 }
 
 .skillsComp_set_individual {
@@ -35,9 +62,10 @@
 .single_skill{
     border:2px solid black;
     background-color: white;
-    border-radius:15px;
+    font-family: 'Roboto Slab', serif;
+    border-radius:12px;
     margin:1%;
-    padding: 1.5% 2.5%;
+    padding: 1% 2.5%;
     width:fit-content;
 }
 
