@@ -2,6 +2,8 @@
     width:100vw;
     height: 100vh;
     display: grid;
+    grid-template-rows: 1fr 9fr;
+    border: 2px solid white;
 }
 
 #projectsComp_name {
@@ -10,4 +12,15 @@
     margin-right: auto;
     font-size:3em;
     font-family: 'Dosis', sans-serif;
+    border: 2px solid white;
+}
+
+#projectsComp_all{
+    border: 2px solid white;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.projectsComp_all_individual{
+    border:2px solid white;
 }

@@ -5,7 +5,7 @@
     /* height: 100vh; */
     display: grid;
     grid-template-rows: .1fr 5fr;
-    border:2px solid white;
+    /* border:2px solid white; */
 }
 
 #aboutComp_name{
@@ -27,7 +27,8 @@
     display: grid;
     justify-items: center;
     grid-gap:1%;
-    border:2px solid blue;
+    /* background-color: #111; */
+    /* border:2px solid blue; */
     margin:2%;
 }
 
@@ -35,20 +36,20 @@
     display: grid;
     justify-items: center;
     grid-gap:1%;
-    border:2px solid white;
+    /* border:2px solid white; */
     margin:2%;
 }
 
 .aboutComp_info_text{
     display:grid;
     text-align: center;
-    border:2px solid white;
+    /* border:2px solid white; */
     grid-template-rows: .1fr .2fr;
 }
 
 #ma{    
     color:#f4e7f3;
-    border:2px solid white;
+    /* border:2px solid white; */
     margin:1%;
     font-size:1.8em;
     font-family: 'Josefin Sans', sans-serif;
@@ -58,7 +59,7 @@
     /* text-align: right; */
     /* text-align: center; */
     color: #e7f4f3;
-    border:2px solid white;
+    /* border:2px solid white; */
     margin:1%;
     font-size:1.8em;
     font-family: 'Josefin Sans', sans-serif;
@@ -72,7 +73,7 @@
 /* PLAY AROUND WITH FONTS AND COLORS */
 .about_desc{
     margin:1%;
-    border:2px solid white;
+    /* border:2px solid white; */
     font-size:1.1em;
     color:white;
     font-family: 'Josefin Sans', sans-serif;
