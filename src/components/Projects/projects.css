@@ -1,9 +1,9 @@
 #projectsComp {
     width:100vw;
-    height: 100vh;
+    /* height: 100vh; */
     display: grid;
-    grid-template-rows: 1fr 9fr;
-    border: 2px solid white;
+    grid-template-rows: .5fr 9fr;
+    /* border: 2px solid white; */
 }
 
 #projectsComp_name {
@@ -12,15 +12,49 @@
     margin-right: auto;
     font-size:3em;
     font-family: 'Dosis', sans-serif;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 #projectsComp_all{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: grid;
     grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
 }
 
 .projectsComp_all_individual{
-    border:2px solid white;
+    /* border:2px solid white; */
+    display: grid;
+    /* grid-template-rows: 3fr 1fr; */
+    grid-template-areas: "overlap";
+    width:95vw;
+    height:95vw;
+    margin:1%;
+    transition: .5s;
+}
+
+#CodeCombat {
+    background-image: url('../../assets/CodeCombat.svg');
+    background-size: cover;
+}
+
+.projectDesc{
+    /* border: 2px solid yellow; */
+    transition:1s;
+    grid-area: overlap;
+    color:red;
+}
+
+.projectImage{
+    /* border: 2px solid yellow; */
+    /* background-image: url('../../assets/CodeCombat/lobby.png'); */
+    /* background-size: cover; */
+    width:100%;
+    height:100%;
+    grid-area: overlap;
+    transition: .5s;
+}
+
+.projectImage:hover{
+    opacity: 0;
 }

@@ -18,6 +18,7 @@ const about = ()=> {
                         </p>
                     </div>
                 </div>
+
                 <div id="aboutComp_info_dev">
                     <div className="about_img" id="dev_image"><img src={dev}  /></div>
                     <div className="aboutComp_info_text" id="dev_text">
@@ -27,6 +28,7 @@ const about = ()=> {
                         </p>
                     </div>
                 </div>
+
             </div>
         </div>
     );
