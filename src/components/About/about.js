@@ -29,6 +29,16 @@ const about = ()=> {
                     </div>
                 </div>
 
+                <div id="aboutComp_info_math">
+                    <div className="about_img"><img src={math} /></div>
+                    <div className="aboutComp_info_text" id="math_text">
+                        <span id="ma">Mathematician</span>
+                        <p className="about_desc">
+                            blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+                        </p>
+                    </div>
+                </div>
+                
             </div>
         </div>
     );

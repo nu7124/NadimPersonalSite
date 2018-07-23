@@ -38,6 +38,16 @@
     background-size: cover;
 }
 
+#Mentr {
+    background-image: url('../../assets/Mentr.svg');
+    background-size: cover;
+}
+
+#VotingBlock{
+    background-image: url('../../assets/VotingBlock.svg');
+    background-size: cover;
+}
+
 .projectDesc{
     /* border: 2px solid yellow; */
     transition:1s;

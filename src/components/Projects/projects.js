@@ -17,7 +17,7 @@ const projects = ()=>{
             <span>My Role</span>
             <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah </p>
           </div>
-          
+
           <div className="projectImage" id="CodeCombat">
   
           </div>
@@ -37,7 +37,7 @@ const projects = ()=>{
             <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah </p>
           </div>
 
-          <div className="projectImage">
+          <div className="projectImage" id="Mentr">
           
           </div>
 
@@ -45,18 +45,18 @@ const projects = ()=>{
 
         <div className="projectsComp_all_individual" style={{backgroundColor:'green'}}>
 
-          <div className="projectImage">
-  
-          </div>
 
-          {/* <div className="projectDesc">
+          <div className="projectDesc">
             <span>Project Name</span>
             <span>About</span>
             <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah </p>
             <span>My Role</span>
             <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah </p>
-          </div> */}
+          </div>
 
+          <div className="projectImage" id="VotingBlock">
+  
+          </div>
         </div>
       </div>
     </div>
