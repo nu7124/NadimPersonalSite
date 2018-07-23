@@ -42,7 +42,7 @@
     /* border: 2px solid yellow; */
     transition:1s;
     grid-area: overlap;
-    color:red;
+    color:purple;
 }
 
 .projectImage{

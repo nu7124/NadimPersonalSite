@@ -10,17 +10,18 @@ const projects = ()=>{
       <div id="projectsComp_all">
         <div className="projectsComp_all_individual" style={{backgroundColor:'red'}}>
 
-          <div className="projectImage" id="CodeCombat">
-  
-          </div>
-
-          {/* <div className="projectDesc">
+          <div className="projectDesc">
             <span>Project Name</span>
             <span>About</span>
             <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah </p>
             <span>My Role</span>
             <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah </p>
-          </div> */}
+          </div>
+          
+          <div className="projectImage" id="CodeCombat">
+  
+          </div>
+
 
         </div>
 
