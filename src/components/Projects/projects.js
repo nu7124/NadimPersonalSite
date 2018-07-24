@@ -43,7 +43,7 @@ const projects = ()=>{
 
         </div>
 
-        <div className="projectsComp_all_individual" style={{backgroundColor:'green'}}>
+        <div className="projectsComp_all_individual" style={{backgroundColor:'rgba(255, 255, 255, 0.5)'}}>
 
 
           <div className="projectDesc">

@@ -27,6 +27,7 @@
     display: grid;
     /* grid-template-rows: 3fr 1fr; */
     grid-template-areas: "overlap";
+    border-radius:10px;
     width:95vw;
     height:95vw;
     margin:1%;
@@ -67,4 +68,22 @@
 
 .projectImage:hover{
     opacity: 0;
+    transform: scale(1.2);
+}
+
+@media only screen and (min-width: 480px){
+    #projectsComp_all{
+        /* border: 2px solid white; */
+        /* display: grid; */
+        /* grid-template-columns: repeat(3, 1fr); */
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .projectsComp_all_individual{
+        width:35vw;
+        height:35vw;
+    }
 }

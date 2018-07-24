@@ -32,7 +32,7 @@ const about = ()=> {
                 <div id="aboutComp_info_math">
                     <div className="about_img"><img src={math} /></div>
                     <div className="aboutComp_info_text" id="math_text">
-                        <span id="ma">Mathematician</span>
+                        <span id="ma">Enthusiast</span>
                         <p className="about_desc">
                             blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
                         </p>
