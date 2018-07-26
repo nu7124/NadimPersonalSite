@@ -8,7 +8,23 @@ const projects = ()=>{
     <div id="projectsComp">
       <h1 id="projectsComp_name">Portfolio</h1>
       <div id="projectsComp_all">
-        <div className="projectsComp_all_individual" style={{backgroundColor:'red'}}>
+
+        <div className="projectsComp_all_individual">
+
+          <div className="projectDesc">
+            <span>Project Name</span>
+            <span>About</span>
+            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah </p>
+            <span>My Role</span>
+            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah </p>
+          </div>
+
+          <div className="projectImage" id="JCVS">
+          </div>
+
+        </div>
+
+        <div className="projectsComp_all_individual">
 
           <div className="projectDesc">
             <span>Project Name</span>
@@ -25,9 +41,7 @@ const projects = ()=>{
 
         </div>
 
-        <div className="projectsComp_all_individual" style={{backgroundColor:'blue'}}>
-
-          
+        <div className="projectsComp_all_individual">
 
           <div className="projectDesc">
             <span>Project Name</span>
@@ -43,7 +57,7 @@ const projects = ()=>{
 
         </div>
 
-        <div className="projectsComp_all_individual" style={{backgroundColor:'rgba(255, 255, 255, 0.5)'}}>
+        <div className="projectsComp_all_individual">
 
 
           <div className="projectDesc">
