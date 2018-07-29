@@ -20,24 +20,42 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-gap:1%;
-    margin:2%;
+    /* margin:2%; */
 }
 
 #aboutComp_info_math{
     display: grid;
-    justify-items: center;
-    grid-gap:1%;
-    background-color: #212121;
+    /* justify-items: center; */
+    /* grid-gap:1%; */
+    background-color: #333333;
     /* border:2px solid blue; */
-    margin:2%;
+    /* margin:2%; */
+    padding-top:2%;
+    padding-bottom: 2%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
 }
 
 #aboutComp_info_dev{
     display: grid;
-    justify-items: center;
-    grid-gap:1%;
+    /* justify-items: center; */
+    /* grid-gap:1%; */
+    background-color: #222222;
     /* border:2px solid white; */
-    margin:2%;
+    /* margin:2%; */
+}
+
+#aboutComp_info_enthu{
+    display: grid;
+    /* justify-items: center; */
+    /* grid-gap:1%; */
+    background-color: #111111;
+    /* border:2px solid blue; */
+    /* margin:2%; */
+    padding-top:2%;
+    padding-bottom: 2%;
+    -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
 }
 
 .aboutComp_info_text{
@@ -63,10 +81,19 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+#enthu{
+    color: #e7f4f3;
+    /* border:2px solid white; */
+    margin:1%;
+    font-size:1.2em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .about_img{
     height:30%;
     width:30%;
     min-height: 25%;
+    justify-self: center;
 }
 /* PLAY AROUND WITH FONTS AND COLORS */
 .about_desc{
@@ -81,6 +108,10 @@
     /* text-align:right; */
 }
 
+#enthu_text{
+    /* text-align:right; */
+}
+
 @media only screen and (min-width: 480px) {
     #aboutComp_info_math{
         grid-template-columns: 1fr 4fr;
@@ -88,6 +119,10 @@
     
     #aboutComp_info_dev{
         grid-template-columns: 4fr 1fr;
+    }
+
+    #aboutComp_info_enthu{
+        grid-template-columns: 1fr 4fr;
     }
 
     .about_desc{
@@ -117,5 +152,9 @@
 
     #dev_text{
         text-align:right;
+    }
+
+    #enthu_text{
+        text-align: left;
     }
 }

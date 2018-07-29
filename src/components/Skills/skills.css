@@ -6,6 +6,7 @@
     display: grid;
     grid-template-rows: 1fr 2fr 2fr 2fr;
     justify-content: center;
+    
 }
 
 #skillsComp_name {
@@ -14,6 +15,7 @@
     color: white;
     font-size:3em;
     font-family: 'Dosis', sans-serif;
+    
 }
 
 .skillsComp_set {
