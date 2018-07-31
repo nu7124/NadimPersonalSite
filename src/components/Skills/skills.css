@@ -2,7 +2,8 @@
 
 #skillsComp {
     width:100vw;
-    height: 100vh;
+    /* height: 100vh; */
+    min-height: 1vh;
     display: grid;
     grid-template-rows: 1fr 2fr 2fr 2fr;
     justify-content: center;

@@ -13,8 +13,9 @@ const about = ()=> {
                     <div className="about_img"><img src={math} /></div>
                     <div className="aboutComp_info_text" id="math_text">
                         <span id="ma">Mathematician</span>
+                        <div className="divider"></div>
                         <p className="about_desc">
-                            
+                            After studying math in college I decided to come back to software engineering because it provided the logical challenge I needed but also provided the real world application which theoretical math lacked.
                         </p>
                     </div>
                 </div>
@@ -23,6 +24,7 @@ const about = ()=> {
                     <div className="about_img" id="dev_image"><img src={dev}  /></div>
                     <div className="aboutComp_info_text" id="dev_text">
                         <span id="se">Software Engineer</span>
+                        <div className="divider"></div>
                         <p className="about_desc">
                             After studying math in college I decided to come back to software engineering because it provided the logical challenge I needed but also provided the real world application which theoretical math lacked.
                         </p>
@@ -33,8 +35,9 @@ const about = ()=> {
                     <div className="about_img"><img src={math} /></div>
                     <div className="aboutComp_info_text" id="enthu_text">
                         <span id="enthu">Enthusiast</span>
+                        <div className="divider"></div>
                         <p className="about_desc">
-                            blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+                            After studying math in college I decided to come back to software engineering because it provided the logical challenge I needed but also provided the real world application which theoretical math lacked.
                         </p>
                     </div>
                 </div>
