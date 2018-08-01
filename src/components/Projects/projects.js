@@ -1,77 +1,20 @@
 import React from 'react';
 import './projects.css';
-
-import CodeCombat from '../../assets/CodeCombat.svg'
+import Individual from './individual';
+import {info} from './info'
 
 const projects = ()=>{
   return (
     <div id="projectsComp">
       <h1 id="projectsComp_name">Portfolio</h1>
       <div id="projectsComp_all">
-
-        <div className="projectsComp_all_individual">
-
-          <div className="projectDesc">
-            <span>Project Name</span>
-            <span>About</span>
-            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah </p>
-            <span>My Role</span>
-            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah </p>
-          </div>
-
-          <div className="projectImage" id="JCVS">
-          </div>
-
-        </div>
-
-        <div className="projectsComp_all_individual">
-
-          <div className="projectDesc">
-            <span>Project Name</span>
-            <span>About</span>
-            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah </p>
-            <span>My Role</span>
-            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah </p>
-          </div>
-
-          <div className="projectImage" id="CodeCombat">
-  
-          </div>
-
-
-        </div>
-
-        <div className="projectsComp_all_individual">
-
-          <div className="projectDesc">
-            <span>Project Name</span>
-            <span>About</span>
-            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah </p>
-            <span>My Role</span>
-            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah </p>
-          </div>
-
-          <div className="projectImage" id="Mentr">
-          
-          </div>
-
-        </div>
-
-        <div className="projectsComp_all_individual">
-
-
-          <div className="projectDesc">
-            <span>Project Name</span>
-            <span>About</span>
-            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah </p>
-            <span>My Role</span>
-            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah </p>
-          </div>
-
-          <div className="projectImage" id="VotingBlock">
-  
-          </div>
-        </div>
+        {
+          info.map(project => {
+            return (
+              <Individual id={project.id} name={project.name} about={project.about} role={project.role}/>
+            )
+          })
+        }
       </div>
     </div>
   );
