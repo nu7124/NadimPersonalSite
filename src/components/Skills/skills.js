@@ -7,6 +7,7 @@ const skills = ()=>{
   return (
     <div id="skillsComp">
       <h1 id="skillsComp_name">Skills</h1>
+      
       <div className="skillsComp_set">
         <div className="skillsComp_set_title" id="front"><div className="inner">Front End</div></div>
         <div className="skillsComp_set_individual">
