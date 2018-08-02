@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 #projectsComp {
     width:100vw;
     /* height: 100vh; */
@@ -35,6 +38,12 @@
     transition: .5s;
 }
 
+.projectsComp_all_individual:hover > .projectImage{
+    opacity: 0;
+    transform: scale(1.2);
+    visibility: hidden;
+}
+
 #JCVS {
     background-image: url('../../assets/JCVS.svg');
     background-size: cover;
@@ -60,6 +69,8 @@
     padding:2%;
     grid-area: overlap;
     color:white;
+    display: grid;
+    grid-template-rows: 1fr auto;
 }
 
 .projectImage{
@@ -68,14 +79,44 @@
     /* background-size: cover; */
     width:100%;
     height:100%;
+    display: grid;
     grid-area: overlap;
     transition: .5s;
+    z-index: 0;
 }
 
-.projectsComp_all_individual:hover > .projectImage{
-    opacity: 0;
-    transform: scale(1.2);
+.projectDesc_name{
+    text-align: center;
+    padding:2%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6em;
 }
+
+.projectDesc_title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+    padding:2%;
+}
+
+.projectDesc_title_text{
+    font-size:3.5vw;
+    padding:2%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.code_button{
+    /* border:2px solid white; */
+    font-family: 'Josefin Sans', sans-serif;
+    padding:2%;
+    text-align: center;
+    margin:2%;
+}
+
+.code_text{
+    border:2px solid white;
+    padding:2%;
+}
+
 
 @media only screen and (min-width: 480px){
     #projectsComp_all{
@@ -92,4 +133,16 @@
         width:35vw;
         height:35vw;
     }
+
+    .projectDesc_title_text{
+        font-size:.9em;
+    }
+
+    .projectDesc_title{
+        font-size: 1.3em;
+    }
+
+    /* .projectDesc_name{
+        font-size: 1.7em;
+    } */
 }

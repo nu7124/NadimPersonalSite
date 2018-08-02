@@ -11,7 +11,7 @@ const projects = ()=>{
         {
           info.map(project => {
             return (
-              <Individual id={project.id} name={project.name} about={project.about} role={project.role}/>
+              <Individual key={project.id} id={project.id} name={project.name} about={project.about} role={project.role} github={project.github}/>
             )
           })
         }
