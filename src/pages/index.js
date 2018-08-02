@@ -24,14 +24,15 @@ const home = ()=> {
         <Skills />
       </div>
 
-      <div id="accomplishments">
-        <Accomplishments />
-      </div>
 
       <div id="projects">
         <Projects />
       </div>
 
+      <div id="accomplishments">
+        <Accomplishments />
+      </div>
+      
       <div id="contact">
         <Contact />
       </div>
