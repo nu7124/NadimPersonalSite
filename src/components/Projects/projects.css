@@ -124,8 +124,24 @@ a{
 }
 
 .project_border{
-    border:2px solid white;
+    /* border:2px solid lime; */
     width:25%;
+}
+
+.JCVS_border{
+    border: 2px solid #ff00ff;
+}
+
+.CodeCombat_border{
+    border: 2px solid #ffaa10;
+}
+
+.Mentr_border{
+    border: 2px solid #2196f3;
+}
+
+.VotingBlock_border{
+    border: 2px solid #efdfcf;
 }
 
 
