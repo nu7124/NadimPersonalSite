@@ -29,9 +29,9 @@ const home = ()=> {
         <Projects />
       </div>
 
-      <div id="accomplishments">
+      {/* <div id="accomplishments">
         <Accomplishments />
-      </div>
+      </div> */}
       
       <div id="contact">
         <Contact />

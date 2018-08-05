@@ -1,8 +1,8 @@
 import React from 'react';
 import './skills.css';
 const front=["JavaScript/ES6+","React","HTML","CSS","React-Native","Redux","Grid","Webpack", "AJAX"];
-const back=["Express","Sequelize","Node","Python","PostgreSQL","Firebase"];
-const other=["Git","Mocha", "Chai", "Postman", "Agile Workflow"];
+const back=["Express","Sequelize","Node","Python","PostgreSQL","Firebase","Truffle","Solidity"];
+const other=["Git","Mocha", "Chai", "Postman", "Agile Workflow","Web3.js"];
 const skills = ()=>{
   return (
     <div id="skillsComp">
