@@ -6,11 +6,13 @@
 
 
 #contactComp_name{
-    /* color: white; */
-    margin: 3% auto;
-    margin-bottom:5%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 2% auto;
+    margin-bottom:2%;
     padding:1%;
-    border-bottom:2px solid white;
+    font-size:3em;
+    /* color: white; */
     color: #212121;
     text-shadow:
         -1px -1px 0 #fff,  
@@ -18,8 +20,5 @@
         -1px 1px 0 #fff,
         1px 1px 0 #fff;
     font-family: 'Roboto Slab', serif;
-    margin-left: auto;
-    margin-right: auto;
-    font-size:3em;
-    font-family: 'Roboto Slab', serif;
+    /* border-bottom:2px solid white; */
 }

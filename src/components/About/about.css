@@ -25,7 +25,7 @@
         -1px 1px 0 #fff,
         1px 1px 0 #fff;
     font-family: 'Roboto Slab', serif;
-    border-bottom:2px solid white;
+    /* border-bottom:2px solid white; */
 }
 
 #aboutComp_info {
