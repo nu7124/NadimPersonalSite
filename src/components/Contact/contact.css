@@ -6,9 +6,20 @@
 
 
 #contactComp_name{
-    color: white;
+    /* color: white; */
+    margin: 3% auto;
+    margin-bottom:5%;
+    padding:1%;
+    border-bottom:2px solid white;
+    color: #212121;
+    text-shadow:
+        -1px -1px 0 #fff,  
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+    font-family: 'Roboto Slab', serif;
     margin-left: auto;
     margin-right: auto;
     font-size:3em;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }

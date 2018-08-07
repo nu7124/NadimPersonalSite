@@ -7,15 +7,22 @@
     display: grid;
     grid-template-rows: 1fr 2fr 2fr 2fr;
     justify-content: center;
-    
+    margin-top:5% auto 0 auto;
 }
 
 #skillsComp_name {
+    /* color: white; */
     margin-left: auto;
     margin-right: auto;
-    color: white;
+    border-bottom:2px solid white;
+    color: #212121;
+    text-shadow:
+        -1px -1px 0 #fff,  
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+    font-family: 'Roboto Slab', serif;
     font-size:3em;
-    font-family: 'Dosis', sans-serif;
     
 }
 

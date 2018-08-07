@@ -7,7 +7,7 @@ import math from '../../assets/Math.svg';
 const about = ()=> {
     return (
         <div id="aboutComp">
-            <h1 id="aboutComp_name">Who am I?</h1>
+            <h1 id="aboutComp_name">WHO AM I ?</h1>
             <div id="aboutComp_info">
                 <div id="aboutComp_info_math">
                     <div className="about_img"><img src={math} /></div>

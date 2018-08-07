@@ -8,7 +8,7 @@ import medium from '../../assets/social/medium.svg'
 const title = ()=> {
   return (
     <div id="title">
-      <span id="title-name">Nadim Uddin</span>
+      <span id="title-name">N A D I M</span>
       <div className="title-border"></div>
       <div className="social_grid">
 

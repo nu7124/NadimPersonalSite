@@ -6,7 +6,7 @@ const other=["Git","Mocha", "Chai", "Postman", "Agile Workflow","Web3.js"];
 const skills = ()=>{
   return (
     <div id="skillsComp">
-      <h1 id="skillsComp_name">Skills</h1>
+      <h1 id="skillsComp_name">SKILLS</h1>
       
       <div className="skillsComp_set">
         <div className="skillsComp_set_title" id="front"><div className="inner">Front End</div></div>

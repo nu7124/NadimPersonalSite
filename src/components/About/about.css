@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+
 #aboutComp {
     width:100vw;
     /* height: 100vh; */
@@ -12,10 +14,18 @@
     /* margin-left: auto;
     margin-right: auto; */
     margin: 3% auto;
+    margin-bottom:5%;
+    padding:1%;
     font-size:3em;
-    color: white;
-    font-family: 'Dosis', sans-serif;
-    /* border:2px solid white; */
+    /* color: white; */
+    color: #212121;
+    text-shadow:
+        -1px -1px 0 #fff,  
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+    font-family: 'Roboto Slab', serif;
+    border-bottom:2px solid white;
 }
 
 #aboutComp_info {
@@ -73,7 +83,8 @@
 
 #se{
     /* color: #e7f4f3; */
-    color: #00ccff;
+    color: #c1ffa2;
+    /* color: #00ccff; */
     /* border:2px solid white; */
     padding:1%;
     font-size:1.2em;
@@ -82,7 +93,7 @@
 }
 
 #enthu{
-    color: #c1ffa2;
+    color: #00ccff;
     /* border:2px solid white; */
     padding:1%;
     font-size:1.2em;
