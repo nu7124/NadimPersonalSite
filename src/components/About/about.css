@@ -4,20 +4,15 @@
 
 #aboutComp {
     width:100vw;
-    /* height: 100vh; */
     display: grid;
     grid-template-rows: .1fr 5fr;
     
 }
 
 #aboutComp_name{
-    /* margin-left: auto;
-    margin-right: auto; */
     margin: 3% auto;
-    margin-bottom:5%;
     padding:1%;
     font-size:3em;
-    /* color: white; */
     color: #212121;
     text-shadow:
         -1px -1px 0 #fff,  
@@ -25,79 +20,56 @@
         -1px 1px 0 #fff,
         1px 1px 0 #fff;
     font-family: 'Roboto Slab', serif;
-    /* border-bottom:2px solid white; */
 }
 
 #aboutComp_info {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    /* grid-gap:1%; */
-    /* padding:2%; */
 }
 
 #aboutComp_info_math{
     display: grid;
-    /* justify-items: center; */
-    /* grid-gap:1%; */
     background-color: #212121;
-    /* border:2px solid blue; */
     padding:2%;
 }
 
 #aboutComp_info_dev{
     display: grid;
-    /* justify-items: center; */
-    /* grid-gap:1%; */
     background-color: #212121;
-    /* border:2px solid white; */
     padding:2%;
 }
 
 #aboutComp_info_enthu{
     display: grid;
-    /* justify-items: center; */
-    /* grid-gap:1%; */
     background-color: #212121;
-    /* border:2px solid blue; */
     padding:2%;
 }
 
 .aboutComp_info_text{
     display:grid;
     text-align: center;
-    /* border:2px solid white; */
     grid-template-rows: .1fr .2fr;
     padding:5%;
 }
 
 #ma{    
-    /* color:#f4e7f3; */
     color:#ffcc00;
-    /* border:2px solid white; */
     padding:1%;
     font-size:1.2em;
-    /* font-family: 'Josefin Sans', sans-serif; */
     font-family: 'Roboto Mono', monospace;
-
 }
 
 #se{
-    /* color: #e7f4f3; */
     color: #c1ffa2;
-    /* color: #00ccff; */
-    /* border:2px solid white; */
     padding:1%;
     font-size:1.2em;
-    /* font-family: 'Josefin Sans', sans-serif; */
     font-family: 'Roboto Mono', monospace;
 }
 
 #enthu{
     color: #00ccff;
-    /* border:2px solid white; */
     padding:1%;
     font-size:1.2em;
-    /* font-family: 'Josefin Sans', sans-serif; */
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -107,21 +79,12 @@
     min-height: 25%;
     justify-self: center;
 }
-/* PLAY AROUND WITH FONTS AND COLORS */
+
 .about_desc{
     padding:1%;
-    /* border:2px solid white; */
     font-size:.8em;
     color:white;
     font-family: 'Josefin Sans', sans-serif;
-}
-
-#dev_text{
-    /* text-align:right; */
-}
-
-#enthu_text{
-    /* text-align:right; */
 }
 
 .divider{

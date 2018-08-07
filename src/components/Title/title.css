@@ -1,16 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Kanit:700');
 #title {
     width:100vw;
-    /* border:2px solid white; */
     text-align: center;
     animation: fadein 1s 1;
 }
 
 #title-name {
     font-size:3em;
-    /* font-family: 'Kanit', sans-serif; */
     font-family: 'Roboto Slab', serif;
-    /* color:white; */
     color: #212121;
     text-shadow:
         -1px -1px 0 #fff,  
@@ -36,9 +33,7 @@
 .social_grid{
     margin:2% auto;
     display: grid;
-    /* justify-content: left; */
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* border:2px solid white; */
     margin-right:auto;
 }
 
@@ -47,9 +42,7 @@
     width:45%;
     margin-left:auto;
     margin-right:auto;
-    /* border:2px solid white; */
     padding:3%;
-    /* border-radius: 100%; */
 }
 #twitter{
     transition:.35s;

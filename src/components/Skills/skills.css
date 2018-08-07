@@ -2,7 +2,6 @@
 
 #skillsComp {
     width:100vw;
-    /* height: 100vh; */
     min-height: 1vh;
     display: grid;
     grid-template-rows: 1fr 2fr 2fr 2fr;
@@ -13,11 +12,8 @@
 #skillsComp_name {
     margin-left: auto;
     margin-right: auto;
-    /* margin: 3% auto; */
-    /* margin-bottom:5%; */
     padding:1%;
     font-size:3em;
-    /* color: white; */
     color: #212121;
     text-shadow:
         -1px -1px 0 #fff,  
@@ -25,8 +21,6 @@
         -1px 1px 0 #fff,
         1px 1px 0 #fff;
     font-family: 'Roboto Slab', serif;
-    /* border-bottom:2px solid white; */
-    
 }
 
 .skillsComp_set {
@@ -47,17 +41,14 @@
 
 #front {
     background: linear-gradient(to bottom right, #ffcc00 0%, #ff66cc 100%);
-    /* color:#f4e7f3; */
 }
 
 #back{
     background: linear-gradient(to right, #00ccff 0%, #c1ffa2 100%);
-    /* color: #e7f4f3; */
 }
 
 #other{
     background:linear-gradient(to top right, #ff66cc 0%, #00ccff 100%);
-    /* color: #f3f4e7; */
 }
 
 .inner{
