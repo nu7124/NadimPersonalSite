@@ -7,11 +7,24 @@ import Skills from '../components/Skills/skills';
 import Accomplishments from '../components/Accomplishments/accomplishments';
 import Projects from '../components/Projects/projects';
 import Contact from '../components/Contact/contact';
+import favicon from '../assets/favicon.png'
+
+import Helmet from 'react-helmet';
 
 const home = ()=> {
   return (
     <div id="home">
+      <Helmet
+        title="Nadim Uddin"
+        meta={[
+          { name: 'description', content: 'Nadim Uddin Software Engineer' },
+          { name: 'software', content: 'personal, software, engineer' },
+        ]}
+        link={[
+          { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
+        ]}
 
+      />
       <div id="main">
         <Title />
       </div>
