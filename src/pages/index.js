@@ -11,7 +11,7 @@ import Contact from '../components/Contact/contact';
 const home = ()=> {
   return (
     <div id="home">
-    
+
       <div id="main">
         <Title />
       </div>
@@ -33,8 +33,12 @@ const home = ()=> {
         <Accomplishments />
       </div> */}
       
-      <div id="contact">
+      {/* <div id="contact">
         <Contact />
+      </div> */}
+
+      <div id="footer">
+        © 2018 Nadim Uddin. All Rights Reserved.
       </div>
     </div>
   );
