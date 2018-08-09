@@ -78,3 +78,18 @@
         margin-right:auto;
     }
 }
+
+@media only screen and (min-width: 1920px){
+
+    #skillsComp_name{
+        font-size: 3.5em;
+    }
+
+    .skillsComp_set_title{
+        font-size: 1.8em;
+    }
+
+    .single_skill{
+        font-size:1.3em
+    }
+}

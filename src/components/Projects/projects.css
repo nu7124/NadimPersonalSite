@@ -56,7 +56,8 @@
 
 #Mentr {
     background-image: url('../../assets/Mentr.svg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat
 }
 
 #VotingBlock{
@@ -99,7 +100,7 @@
     font-size:3.5vw;
     padding:2%;
     font-family: 'Ubuntu', sans-serif;
-    overflow-y: scroll;
+    overflow-y: hidden;
     min-height: 1vh;
 }
 
@@ -127,18 +128,22 @@ a{
 
 .JCVS_border{
     border: 2px solid #ff00ff;
+    background-color: #ff00ff;
 }
 
 .CodeCombat_border{
     border: 2px solid #ffaa10;
+    background-color: #ffaa10;
 }
 
 .Mentr_border{
     border: 2px solid #2196f3;
+    background-color: #2196f3;
 }
 
 .VotingBlock_border{
     border: 2px solid #efdfcf;
+    background-color: #efdfcf
 }
 
 
@@ -156,7 +161,7 @@ a{
     }
 
     .projectDesc_title_text{
-        font-size:.9em;
+        font-size:.8em;
     }
 
     .projectDesc_title{
@@ -164,6 +169,28 @@ a{
     }
 
     .code_text{
+        font-size: .8em
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    .projectDesc_title_text{
+        font-size:1.1em;
+    }
+
+    .projectDesc_title{
+        font-size: 1.5em;
+    }
+
+    .projectDesc_name{
+        font-size: 1.8em;
+    }
+
+    .code_text{
         font-size: 1.1em
+    }
+
+    #projectsComp_name{
+        font-size: 3.5em;
     }
 }

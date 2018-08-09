@@ -106,7 +106,7 @@
     }
 
     .about_desc{
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     .about_img{
@@ -141,4 +141,15 @@
     #enthu_text{
         text-align: left;
     }
+}
+
+@media only screen and (min-width: 1920px){
+    #aboutComp_name{
+        font-size: 3.5em;
+    }
+
+    .about_desc{
+        font-size: 1.65em;
+    }
+
 }
