@@ -13,12 +13,9 @@
     margin: 3% auto;
     padding:1%;
     font-size:3em;
-    color: #212121;
-    text-shadow:
-        -1px -1px 0 #fff,  
-        1px -1px 0 #fff,
-        -1px 1px 0 #fff,
-        1px 1px 0 #fff;
+    color:transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -82,7 +79,7 @@
 
 .about_desc{
     padding:1%;
-    font-size:.8em;
+    font-size:.9em;
     color:white;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -109,7 +106,7 @@
     }
 
     .about_desc{
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
 
     .about_img{

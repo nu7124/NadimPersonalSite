@@ -16,8 +16,8 @@ export const info = [
     {
         id:"Mentr",
         name:"Mentr",
-        about:"As someone from a non-traditional background my team and I realized the struggle to break into the tech industry. We built Mentr as a way for newcomers to find mentors by skills and schedule video calls with a mentor.",
-        role:"I built the majority of front end components to display available mentors from search results and the schedule showing upcoming appointments. I constructed the PostgreSQL models to store users infor and built the Express API to save and access info from the database.",
+        about:"As someone from a non-traditional background my team and I realized the struggle to break into the tech industry. We built Mentr for newcomers to find mentors by skills and schedule video calls with a mentor.",
+        role:"I built the front end components with React and Redux to display mentors from search results and built upcoming appointments component. I constructed the PostgreSQL models to store users info and built the Express API to save and access info from the database.",
         github:"https://github.com/Brian4292/Mentr"
     },
     {

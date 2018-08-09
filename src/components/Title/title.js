@@ -21,30 +21,38 @@ const title = ()=> {
             </div>
           </div> */}
 
-          <div className="container_social_image">
-            <div className="social_image" id="email">
-              <img src={email} />
+          <a href="https://github.com/nu7124">
+            <div className="container_social_image">
+              <div className="social_image" id="github">
+                <img src={github} />
+              </div>
             </div>
-          </div>
-
-          <div className="container_social_image">
-            <div className="social_image" id="linkedin">
-              <img src={linkedin} />
-            </div>
-          </div>
-
-          <div className="container_social_image">
-            <div className="social_image" id="medium">
-              <img src={medium} />
-            </div>
-          </div>
+          </a>
 
 
-          <div className="container_social_image">
-            <div className="social_image" id="github">
-              <img src={github} />
+          <a href="https://www.linkedin.com/in/nu7124/">
+            <div className="container_social_image">
+              <div className="social_image" id="linkedin">
+                <img src={linkedin} />
+              </div>
             </div>
-          </div>
+          </a>
+          
+          <a href="https://medium.com/@nu7124">
+            <div className="container_social_image">
+              <div className="social_image" id="medium">
+                <img src={medium} />
+              </div>
+            </div>
+          </a>
+
+          <a href="mailto:nu7124@gmail.com?Subject=Hey%20Nadim" target="_top">
+            <div className="container_social_image">
+              <div className="social_image" id="email">
+                <img src={email} />
+              </div>
+            </div>
+          </a>
 
         </div>
 
