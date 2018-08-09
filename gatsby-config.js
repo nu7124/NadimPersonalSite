@@ -1,7 +1,7 @@
 module.exports = {
-  pathPrefix: "/NadimPersonalSite",
+  pathPrefix: "/static",
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Nadim Uddin',
   },
   plugins: ['gatsby-plugin-react-helmet'],
 }
