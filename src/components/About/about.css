@@ -94,11 +94,11 @@
 
 @media only screen and (min-width: 480px) {
     #aboutComp_info_math{
-        grid-template-columns: 1fr 4fr;
+        grid-template-columns: 4fr 1fr;
     }
     
     #aboutComp_info_dev{
-        grid-template-columns: 4fr 1fr;
+        grid-template-columns: 1fr 4fr;
     }
 
     #aboutComp_info_enthu{
@@ -126,16 +126,16 @@
         font-size: 1.8em;
     }
 
-    #dev_image{
+    #math_image{
         order:1
     }
 
     #math_text{
-        text-align: left;
+        text-align: right;
     }
 
     #dev_text{
-        text-align:right;
+        text-align:left;
     }
 
     #enthu_text{
